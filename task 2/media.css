@@ -1,0 +1,85 @@
+@media screen and (max-width : 1024px) {
+    .parentS{
+        grid-template-columns: 1fr;
+    }
+    .column-1ParentS, .column-1S, .columnChildS {
+        width: 100vw;
+        height: 100vw;
+    }
+    .column-1ParentS {
+        position: static;
+    }
+    .column-1S .shapeS {
+        width: 100vw;
+        height: 100vw;
+        padding: 60px;
+    }
+    
+    .columnChildS{
+        width: 100% !important;
+        height: 100% !important;        
+    }
+    .circleS{
+        line-height: 1.4;
+        font-weight: inherit;
+    }
+    .column-2S .productS{
+        height: fit-content;
+    }
+    .column-2S .productS .col-imgS{
+        width: 100%;
+        height: 0px;
+        padding-bottom: 70.4%;
+        position: relative;
+    }
+    .column-2S .productS .col-imgS img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        box-sizing: border-box;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .textS{
+        padding: 60px;
+    }
+    .p1TextS{
+        font-size: 14px;
+    }
+   
+}
+@media screen and (max-width : 768px) {
+    .textS{
+        padding-left: 20px;
+        text-align: left;
+        display: block;
+    }
+}
+@media screen and (max-width : 587px){
+    .textS{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
+    .p1S, .p1TextS{
+        width: Calc(100vw - 50px) !important;
+    }
+
+}
+@media screen and (max-width : 325px) {
+    .circleS h2{
+        font-size: 20px;
+    }
+    .p1S{
+        font-size: 15px;
+        
+    }
+    .p1TextS{
+        font-size: 10px !important;
+    }
+    
+}

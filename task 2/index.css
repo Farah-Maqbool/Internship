@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.flexClassS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.parentS{
+    display: grid;
+    grid-template-columns: 1.4fr 2fr;
+}
+.column-2S .productS .col-imgS{
+    height: 260px;
+}
+.textS{
+    height: 178px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.circleS h2{
+    color: white;
+}
+.p1S{
+    font-size: 20px;
+    font-weight: inherit;
+    margin: 0;
+}
+.textS .p1TextS {
+    font-size: 13px;
+    width: 510px;
+    font-weight: inherit;
+}
+
+.p1S, .p1TextS{
+    width: 510px !important;
+}
+.column-2S .productS{
+    height: 556px;
+}
+.column-2S  .productS .textS .p1TextS p{
+    line-height: 1.675 !important;
+}
+.column-2S .productS .col-imgS img{
+    object-fit: cover;
+}
+.column-1S .columnChildS{
+    height: 556px;
+}
+.column-1S .columnChildS img{
+    object-fit: cover;
+}
+.column-1S .shapeS .squareS{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+.column-1S .shapeS .squareS .circleS{
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.column-1S .shapeS{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 64px;
+    box-sizing: border-box;
+}
+.column-1S{
+    position: relative;
+    height: 556px;
+}
+.column-1ParentS{
+    height: 556px;
+    position: sticky;
+    top: 0;
+    align-self: start;
+}
+.circleS h2{
+    text-align: center;
+    font-weight: lighter;
+}
